@@ -1,0 +1,27 @@
+{
+  "name": "e-presensi",
+  "version": "1.0.0",
+  "description": "backend e-presensi",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dckristiono@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.2.1"
+  }
+}
